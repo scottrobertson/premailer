@@ -1,4 +1,16 @@
 {
+  "name" : "scottrobertson/premailer",
+  "type" : "library",
+  "description" : "Pre-flight for HTML email - PHP Wrapper.",
+  "keywords" : ["email", "premailer"],
+  "authors" : [
+    {
+      "name" : "Scott Robertson",
+      "email" : "scott@scottrobertson.me",
+      "homepage" : "http://scottrobertson.me",
+      "role" : "Developer"
+    }
+  ],
   "require" : {
     "guzzlehttp/guzzle": "4.*"
   },
