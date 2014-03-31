@@ -14,9 +14,12 @@
   "require" : {
     "guzzlehttp/guzzle": "4.*"
   },
+  "require-dev" : {
+    "mockery/mockery" : "~0.9"
+  },
   "autoload" : {
     "psr-0" : {
-      "" : "src/"
+      "" : ["src", "tests"]
     }
   }
 }
