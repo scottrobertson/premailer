@@ -17,7 +17,7 @@ class Request
    * Holds the Premailer API url
    * @var string
    */
-  private $url = ;
+  private $url;
 
   /**
    * @param string $url API url for premailer
