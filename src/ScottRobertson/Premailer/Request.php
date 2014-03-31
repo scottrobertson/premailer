@@ -17,14 +17,18 @@ class Request
    * Holds the Premailer API url
    * @var string
    */
-  private $url;
+  private $url = ;
 
   /**
    * @param string $url API url for premailer
    */
-  public function __construct($url = 'http://premailer.dialect.ca/api/0.1/documents')
+  public function __construct($url = 'http://premailer.dialect.ca/api/0.1/documents', \GuzzleHttp\Client $client = null)
   {
-    $this->client = new Client();
+    if (! $client) {
+      $client = new Client();
+    }
+
+    $this->client = $client;
     $this->url = $url;
   }
 
