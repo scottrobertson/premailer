@@ -22,7 +22,7 @@ class Request
   /**
    * @param string $url API url for premailer
    */
-  public function __construct($url = 'http://premailer.dialect.ca/api/0.1/documents', \GuzzleHttp\Client $client = null)
+  public function __construct(\GuzzleHttp\Client $client = null, $url = 'http://premailer.dialect.ca/api/0.1/documents')
   {
     if (! $client) {
       $client = new Client();
