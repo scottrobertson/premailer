@@ -3,6 +3,7 @@
   "type" : "library",
   "description" : "Pre-flight for HTML email - PHP Wrapper.",
   "keywords" : ["email", "premailer"],
+  "license": "MIT",
   "authors" : [
     {
       "name" : "Scott Robertson",
