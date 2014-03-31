@@ -24,6 +24,5 @@ echo $response->downloadHtml();
 ```
 
 # Todo
- - Tests
  - Documentation
 
