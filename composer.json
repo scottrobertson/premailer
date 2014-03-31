@@ -15,7 +15,8 @@
     "guzzlehttp/guzzle": "4.*"
   },
   "require-dev" : {
-    "mockery/mockery" : "~0.9"
+    "mockery/mockery" : "~0.9",
+    "satooshi/php-coveralls": "dev-master"
   },
   "autoload" : {
     "psr-0" : {
