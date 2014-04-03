@@ -43,7 +43,7 @@ class Response
    */
   public function downloadText()
   {
-    return $this->download('text');
+    return $this->download('txt');
   }
 
   /**

@@ -45,7 +45,7 @@ class ResponseTest extends TestCase
     $mockGuzzle = Mockery::mock('\GuzzleHttp\Client')
       ->shouldReceive('get')
       ->once()
-      ->with($data['documents']['text'])
+      ->with($data['documents']['txt'])
       ->andReturn(Mockery::self())
       ->shouldReceive('getBody')
       ->once()
@@ -75,7 +75,7 @@ class ResponseTest extends TestCase
     $mockGuzzle = Mockery::mock('\GuzzleHttp\Client')
       ->shouldReceive('get')
       ->once()
-      ->with($data['documents']['text'])
+      ->with($data['documents']['txt'])
       ->andThrow(new \Exception('Get failed'))
       ->mock();
 
