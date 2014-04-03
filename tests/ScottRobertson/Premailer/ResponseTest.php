@@ -38,7 +38,7 @@ class ResponseTest extends TestCase
     $expectedResponse = 'response';
     $data = [
       'documents' => [
-        'text' => 'http://example.com'
+        'txt' => 'http://example.com'
       ]
     ];
 
@@ -68,7 +68,7 @@ class ResponseTest extends TestCase
     $expectedResponse = 'response';
     $data = [
       'documents' => [
-        'text' => 'http://example.com'
+        'txt' => 'http://example.com'
       ]
     ];
 
